@@ -1,9 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main()
+int main(void)
 {
-    printf("Hello, world!\n");
-    printf("Hello, world!\n");
+   int age = 25;
+   float height = 5.9;
+   char grade = 'A';
+   printf("age: %d, height; %.1f, Grade; %c\n ", age, height, grade );
+   return 0;
 
-    return 0;
 }
