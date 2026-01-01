@@ -7,5 +7,5 @@ int main(void)
    char grade = 'A';
    printf("age: %d, height; %.1f, Grade; %c\n ", age, height, grade );
    return 0;
-
+  
 }
